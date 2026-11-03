@@ -44,11 +44,12 @@
             android:value="ratio_float" />
 
         <activity
-            android:name=".TestStorageActivity"
-            android:exported="true"
-            android:label="@string/app_short_name"
-            android:launchMode="singleTop">
-            <intent-filter>
+      android:name=".TestStorageActivity"
+      android:exported="true"
+      android:label="@string/app_short_name"
+      android:launchMode="singleTop"
+      android:screenOrientation="sensorLandscape">
+           <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
